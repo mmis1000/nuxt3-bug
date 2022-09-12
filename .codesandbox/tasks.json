@@ -4,9 +4,9 @@
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "npm i && npm run dev": {
-      "name": "npm i && npm run dev",
-      "command": "npm i && npm run dev",
+    "npm install && npm run build && npm run preview": {
+      "name": "npm install && npm run build && npm run preview",
+      "command": "npm install && npm run build && npm run preview",
       "runAtStart": true
     }
   }
